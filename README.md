@@ -13,6 +13,8 @@ O fluxo de monitoramento implementado segue a arquitetura *pull-based* do Promet
 1.  **Spring Boot Actuator + Micrometer:** Expõe os dados da aplicação.
 2.  **Prometheus:** Coleta (scrape) as métricas a cada 15 segundos.
 3.  **Grafana:** Consulta o Prometheus para gerar gráficos visuais.
+   
+   *Desenvolvido para fins de estudo sobre Observabilidade e SRE.*
 
 ```mermaid
 graph LR
